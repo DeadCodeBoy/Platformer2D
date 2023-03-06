@@ -55,10 +55,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
-    <Compile Include="Assets\Scripts\GameOver.cs" />
-    <Compile Include="Assets\Scripts\CherryGenerator.cs" />
-    <Compile Include="Assets\Scripts\Cherry.cs" />
     <Compile Include="Assets\Scripts\ItemCollector.cs" />
+    <Compile Include="Assets\Scripts\Cherry.cs" />
+    <Compile Include="Assets\Scripts\CherryGenerator.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\HashAnimationNames.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

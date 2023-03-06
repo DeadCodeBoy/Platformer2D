@@ -3,7 +3,4 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Cherry : MonoBehaviour
-{
-   
-}
+public class Cherry : MonoBehaviour{ }

@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rigidbody;
     private SpriteRenderer _sprite;
     private Animator _animator;
+    private const string Runing = "runing";
+    protected HashAnimationNames animBase = new HashAnimationNames();
 
     private void Start()
     {
@@ -35,16 +37,16 @@ public class PlayerMovement : MonoBehaviour
         if(movement<0 )
         {
             _sprite.flipX =  true;
-            _animator.SetBool("runing", true);
+            _animator.SetBool(Runing, true);
         }
         else if (movement>0)
         {
             _sprite.flipX = false;
-            _animator.SetBool("runing", true);
+            _animator.SetBool(animBase.RuningHash, true);
         }
         else
         {
-            _animator.SetBool("runing", false);
+            _animator.SetBool(Runing, false);
         }
     }
 }

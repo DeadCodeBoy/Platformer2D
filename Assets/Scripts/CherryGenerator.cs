@@ -9,10 +9,10 @@ public class CherryGenerator : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(CherrySpawn());
+        StartCoroutine(Spawn());
     }
 
-    private IEnumerator CherrySpawn()
+    private IEnumerator Spawn()
     {
         for (int i = 0; i < _spawnPosition.Length; i++)
         {
